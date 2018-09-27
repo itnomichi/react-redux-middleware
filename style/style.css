@@ -2,3 +2,27 @@
     min-width: 500px;
     margin: 20px;
 }
+
+.tbody td {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+.thead th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+.tbody svg {
+    height: 150px;
+}
+
+.tbody td:first-of-type {
+    height: 200px;
+    width: 250px;
+}
+
+.tbody td:first-of-type > div {
+    height: 200px;
+    width: 250px;
+}
